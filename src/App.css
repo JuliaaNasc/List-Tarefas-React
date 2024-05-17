@@ -2,7 +2,7 @@ body{
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url('./assets/imagens/wallpaper.avif');
+  background: linear-gradient(to right, rgb(42, 188, 79), rgb(30, 18, 123));
   background-position: center;
   background-size: cover;
 }
@@ -40,10 +40,28 @@ button{
   cursor: pointer;
   opacity: 0.8;
   transition: 0.3s;
+  margin-right: 10px;
 }
 
 button:hover{
   opacity: 1;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Complete{
