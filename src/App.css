@@ -1,0 +1,67 @@
+body{
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./assets/imagens/wallpaper.avif');
+  background-position: center;
+  background-size: cover;
+}
+
+.App{
+  max-width: 500px;
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.Complete{
+  background-color: rgb(45, 214, 45);
+}
+
+.Remove{
+  background-color: red;
+}
+
+.todo-form{
+  padding-bottom: 1,5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
