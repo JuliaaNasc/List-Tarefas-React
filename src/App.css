@@ -83,3 +83,8 @@ input, select{
   border-radius: 3px;
   width: 100%;
 }
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+}
