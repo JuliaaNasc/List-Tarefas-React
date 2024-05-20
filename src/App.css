@@ -87,4 +87,9 @@ input, select{
 .filter-options{
   display: flex;
   justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
 }
