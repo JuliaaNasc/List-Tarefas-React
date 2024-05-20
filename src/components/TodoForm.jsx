@@ -26,7 +26,7 @@ const TodoForm = ({addTodo}) => {
                     <option value="Estudos">Estudos</option>
                     <option value="familiar">familiar</option>
                 </select>
-                <button type="submit">Criar Tarefa</button>
+                <button type="submit">Criar uma Tarefa</button>
             </form>
 
         </div>

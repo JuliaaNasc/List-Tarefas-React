@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Todo = ({todo, removeTodo}) => {
+const Todo = ({todo, removeTodo, completeTodo}) => {
     return(
-        <div className="todo">
+        <div className="todo" style={{textDecoration: todo.isCompleted ? "line-through" : ""}}>
             
         <div className="content">
           <p>{todo.text}</p>
@@ -10,7 +10,7 @@ const Todo = ({todo, removeTodo}) => {
         </div>
 
         <div>
-          <button className='Complete'>Completar</button>
+          <button className='Complete' onClick={() => completeTodo(todo.id)}>Completar</button>
           <button className='Remove' onClick={() => removeTodo(todo.id)}>X</button>
           </div>
 
